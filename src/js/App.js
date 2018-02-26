@@ -1,6 +1,5 @@
 
-import fixerIO from './fixerIO';
-// import CatalogView from './CatalogView';
+import fixerData from './fixerIO';
 
 export default class App {
 
@@ -27,14 +26,14 @@ export default class App {
 }
 
     initfixerIO(widget){
-        let fixerIo = new fixerIO();
+        let fixer = new fixerData();
 
         let baseList = widget.querySelector("#base_list");
         let currencyData = '';
     
-        fixerIo.url = `https://api.fixer.io/latest?base=${baseList.value}`; 
+        fixer.url = `https://api.fixer.io/latest?base=${baseList.value}`; 
 
-        let currency = fixerIo.getData();
+        let currency = fixer.getData();
 
         let targetCurrency = widget.querySelector("#target_list");
         let baseInput = widget.querySelector("#base_input");

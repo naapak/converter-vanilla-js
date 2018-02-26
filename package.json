@@ -13,11 +13,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "gulp-uglifycss": "^1.0.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eapostol/minimalES6-v01.git"
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-uglifyjs": "^0.6.2"
   },
   "keywords": [
     "ES6",

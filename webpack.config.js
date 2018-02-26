@@ -1,19 +1,14 @@
-/**
- * Created by Edward_J_Apostol on 2016-08-29.
- */
-
 
 const join = require('path').join;
 const resolve = require('path').resolve;
 const webpack = require('webpack');
 
-
 console.log('__dirname = ' + __dirname);
 
 const PATHS = {
-    js: join(__dirname,'src'),
+    js: join(__dirname,'src/js'),
     fonts: join(__dirname,'fonts'),
-    dist: 'dist/JS'
+    dist: 'dist/js'
 };
 
 
