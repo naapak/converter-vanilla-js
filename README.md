@@ -14,7 +14,8 @@ Run `npm run-script build` to build the js files
 Insert <script type="text/javascript" src="dist/js/bundle.js"></script> at the bottom of your HTML page/s.
 Insert `<link rel="stylesheet" type="text/css" href="dist/css/stylesmini.css">` in the head of the HTML
 
-In the HTML body create a div with class="currency_converter" to display the currency widget.
+In the HTML body create a div with class="currency_converter" to display the currency widget. 
+`<div class="currency_converter"></div>`
 
 
 
